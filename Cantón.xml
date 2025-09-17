@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Centón de Alonso Ramírez Vargas</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Estrofa de un centón de Alonso Ramírez Vargas, ganador en uno de los certámenes descritos en el Triunfo parténico</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Texto compartido en GitHub para un ejercicio de marcado TEI</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        <lg>
+           <l n="1">
+              <seg xml:id="s1a">
+                 Con naval pompa</seg>
+              <caesura/>
+              <seg xml:id="s1b">de inquieto lino</seg>
+           </l>
+           <l n="2">
+              <seg xml:id="s2a">
+                 (Velero
+                 <choice>
+                    <abbr>bosq</abbr>
+                    <expan>bosque</expan>
+                 </choice>
+                 </seg>
+              <caesura/>
+              <seg xml:id="s2b">
+                 <choice>
+                    <abbr>au</abbr>
+                    <expan>aún</expan>
+                 </choice>
+                 <choice>
+                    <abbr>cotra</abbr>
+                    <expan>contra</expan>
+                 </choice>
+                 el
+                 <choice>
+                    <abbr>vieto</abbr>
+                    <expan>viento</expan>
+                 </choice>
+                 armado)
+              </seg>
+           </l>
+           <l n="3">
+              <seg xml:id="s3a"> La proa diligente</seg>
+              <caesura/>
+              <seg xml:id="s3b"> en poca arena</seg>
+           </l>
+           <l n="4">
+              <seg xml:id="s4a">No solo 
+                 <choice>
+                    <orig>dirigiò</orig>
+                    <reg>dirigió</reg>
+                 </choice>
+              </seg>
+              <caesura/>
+              <seg xml:id="s4b">descamina</seg>
+           </l>
+           <l n="5">
+              <seg xml:id="s5a"> El
+                 <choice>
+                    <orig>Principe</orig>
+                    <reg>Príncipe</reg>
+                 </choice>
+                 Troyano
+              </seg>
+              <caesura/>
+              <seg xml:id="s5b">peregrino;</seg>
+           </l>
+           <l n="6">
+              <seg xml:id="s6a">Mas 
+                 <choice>
+                 <orig>redujola</orig>
+                 <reg>redújola</reg>
+                 </choice>
+                </seg>
+              <caesura/>
+              <seg xml:id="s6b">entre 
+                 <choice>
+                    <orig>vna.</orig>
+                 <reg>una</reg>
+                 </choice>
+                 y otra almena</seg>
+           </l>
+           <l n="7">
+              <seg xml:id="s7a">
+                 <choice>
+                    <orig>Tocò</orig>
+                 <reg>Tocó</reg>
+                 </choice>
+                 las playas, mas</seg>
+              <caesura/>
+              <seg xml:id="s7b">fue de su pena </seg>
+           </l>
+           <l n="8" xml:id="s8a">
+           Termino luminoso:
+           </l>
+           <l n="9">
+              <seg xml:id="s9a">Que fuego el espirando</seg>
+              <caesura/>
+              <seg xml:id="s9b">afectuoso</seg>
+              </l>
+           <l n="10">
+              <seg xml:id="s10a">
+                 <hi>Delos</hi> 
+                 campos apenas</seg>
+              <caesura/>
+              <seg xml:id="s10b">ha ofrecido</seg>
+           </l>
+           <l n="11">
+              <seg xml:id="s11a">
+                <choice>
+                   <orig>do</orig>
+                 <reg>donde</reg>
+                </choice>
+                 <choice>
+                    <orig>hallò</orig>
+                 <reg>halló</reg>
+                 </choice>
+                 reparo
+              </seg>
+              <caesura/>
+              <seg xml:id="s11b">agradecidamente</seg>
+           </l>
+           <l n="12">
+              <seg xml:id="s12a">
+                 <choice>
+                    <orig>Quando</orig>
+                 <reg>Cuando</reg>
+                 </choice>
+                 de amor</seg>
+              <caesura/>
+              <seg xml:id="s12b">admira reverente</seg>
+           </l>
+           <l n="13">
+              <seg xml:id="s13a">
+                 <choice>
+                 <orig>Deydad</orig>
+                 <reg>Deidad</reg>
+                 </choice>,
+             que en Isla</seg>
+              <caesura/>
+              <seg xml:id="s13b">se venera culta</seg>
+           </l>
+           <l n="14">
+              <seg xml:id="s14a">
+                 <choice>
+                 <orig>Triumphando</orig>
+                 <reg>Triunfando</reg>
+                 </choice>
+              </seg>
+              <caesura/>
+              <seg xml:id="s14b">
+             <choice>
+             <orig>de el</orig>
+             <reg>del </reg>
+             </choice>
+             agua que la oculta 
+              </seg>
+           </l>
+           <l n="15">
+              <seg xml:id="s15a">Aun contra el</seg>
+              <caesura/>
+              <seg xml:id="s15b"> 
+                 <name>
+                 <choice>
+                    <orig>Orion</orig>
+                 <reg>Orión</reg>
+                 </choice>
+                 </name>
+                 humedecido;</seg>
+           </l>
+           <l n="16">
+              <seg xml:id="s16a">Que ser quiso en</seg>
+              <caesura/>
+              <seg xml:id="s16b"> el mar fin
+              <choice>
+                 <orig>cobardia</orig>
+              <reg>cobardía</reg>
+             </choice>    
+              </seg>
+           </l>
+           <l n="17">
+              <seg xml:id="s17a">Al <name>Phryrgio</name>, muro,</seg>
+              <caesura/>
+              <seg xml:id="s17b">y resistencia al 
+                 <choice>
+              <orig>dia</orig>   
+              <reg>día</reg>
+              </choice>
+              </seg>
+           </l>
+         </lg>
+         
+         <ab>
+            <list>
+               <item corresp="#s1a"> Can. fol. 42.</item>
+               <item corresp="#s1b">Fol. 3. Son. </item>
+               <item corresp="#s2a"> Son. Fol. 3. </item>
+               <item corresp="#s2b"> F. 188. Sol. </item>
+               <item corresp="#s3a"> Sol. Fol. 169. </item>
+               <item corresp="#s3b"> F. 18. Sol. </item>
+               <item corresp="#s4a"> Sol. Fol. 169.</item>
+               <item corresp="#s4b"> Fol. 9. Son. </item>
+               <item corresp="#s5a"> Com. F. 224. </item>
+               <item corresp="#s5b"> Fol. 7. Son. </item>
+               <item corresp="#s6a"> Sol. F. 169. </item>
+               <item corresp="#s6b"> F. 8. Sont. </item>
+               <item corresp="#s7a"> Sont. F. 11. </item>
+               <item corresp="#s7b"> F. 164. Sol. </item>
+               <item corresp="#s8a"> Sol. Fol. 155.</item>
+               <item corresp="#s9a"> Son. Fol. 33.</item>
+               <item corresp="#s9b"> F. 171. Sol. </item>
+               <item corresp="#s10a"> Pan. F. 183. </item>
+               <item corresp="#s10b"> F. 187. Pan. </item>
+               <item corresp="#s11a"> Pol. F. 153. </item>
+               <item corresp="#s11b"> F. 176. Sol. </item>
+               <item corresp="#s12a"> Pol. F. 151. </item>
+               <item corresp="#s12b"> F. 39. Canc. </item>
+               <item corresp="#s13a"> Pan. F. 182. </item>
+               <item corresp="#s13b"> F. 171. Sol. </item>
+               <item corresp="#s14a"> Sol. Fol. 174. </item>
+               <item corresp="#s14b"> F. 171. Sol. </item>
+               <item corresp="#s15a"> Sol. Fol. 188. </item>
+               <item corresp="#s15b"> F. 24. Son. </item>
+               <item corresp="#s16a"> Sol. Fol. 170. </item>
+               <item corresp="#s16b"> Fol. 19. Son. </item>
+               <item corresp="#s17a"> Sol. Fol. 159. </item>
+               <item corresp="#s17b"> F. 162. Sol. </item>
+               
+               </list>
+         </ab>
+      </body>
+  </text>
+</TEI>
